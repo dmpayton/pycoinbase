@@ -1,9 +1,10 @@
 import decimal
+import os
 import unittest
 import pycoinbase
 
-API_KEY = 'ktt5eZp5MaWJ7Y4x'
-API_SECRET = '7u9oPDIEDMv69ArZ9O8WL24ADXtjwPV7'
+API_KEY = os.environ.get('COINBASE_API_KEY')
+API_SECRET = os.environ.get('COINBASE_API_SECRET')
 
 
 class TestCoinbaseRequest(unittest.TestCase):
