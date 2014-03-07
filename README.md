@@ -3,6 +3,10 @@ pycoinbase
 
 Python library for the Coinbase API
 
+[![Build Status](https://secure.travis-ci.org/dmpayton/pycoinbase.png)](http://travis-ci.org/dmpayton/pycoinbase)
+[![Coverage Status](https://coveralls.io/repos/dmpayton/pycoinbase/badge.png)](https://coveralls.io/r/dmpayton/pycoinbase)
+[![Downloads](https://pypip.in/d/pycoinbase/badge.png)](https://pypi.python.org/pypi/pycoinbase)
+
 * **Author**: [Derek Payton](http://dmpayton.com)
 * **Version**: Very Alpha
 * **License**: MIT
@@ -10,7 +14,6 @@ Python library for the Coinbase API
 **TODO:**
 
 * OAuth (via requests-oauthlib?)
-* Mock tests to avoid actual calls to the API
 * Proper documentation in Sphinx
 
 Low-level API
