@@ -10,6 +10,6 @@ install:
   - pip install -q -r requirements.txt
   - python setup.py -q install
 
-script: py.test tests.py --cov pycoinbase.py --cov-report term-missing --pep8 pycoinbase.py
+script: py.test tests/ --cov pycoinbase.py --cov-report term-missing --pep8 pycoinbase.py
 
 after_success: coveralls

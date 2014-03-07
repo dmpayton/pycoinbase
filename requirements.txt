@@ -1,3 +1,4 @@
+httmock
 requests
 pytest
 pytest-cov
